@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>bakery.ua</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Pridi&display=swap" rel="stylesheet"> 
+        
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="logo">
+                        Bakery UA
+                        <!-- <svg width="106" height="14" viewBox="0 0 106 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.66 11.54H1.24C1.50667 11.54 1.69333 11.48 1.8 11.36C1.92 11.24 1.98 11.0467 1.98 10.78V2.26C1.98 2.00667 1.92 1.82667 1.8 1.72C1.69333 1.6 1.50667 1.54 1.24 1.54H0.66V0.0599997H7.38C8.52667 0.0599997 9.40667 0.359999 10.02 0.959999C10.6333 1.56 10.94 2.40667 10.94 3.5C10.94 4.15333 10.7867 4.74 10.48 5.26C10.1733 5.76667 9.72667 6.15333 9.14 6.42C9.80667 6.64667 10.3067 7.02 10.64 7.54C10.9867 8.04667 11.16 8.67333 11.16 9.42C11.16 10.46 10.8533 11.32 10.24 12C9.62667 12.6667 8.78 13 7.7 13H0.66V11.54ZM6.68 5.74C7.36 5.74 7.89333 5.55333 8.28 5.18C8.66667 4.80667 8.86 4.28 8.86 3.6C8.86 2.89333 8.69333 2.37333 8.36 2.04C8.04 1.69333 7.51333 1.52 6.78 1.52H4.1V5.74H6.68ZM7.12 11.54C7.73333 11.54 8.21333 11.36 8.56 11C8.90667 10.6267 9.08 10.08 9.08 9.36C9.08 8.61333 8.89333 8.07333 8.52 7.74C8.14667 7.40667 7.57333 7.24 6.8 7.24H4.1V11.54H7.12ZM11.578 11.54H12.198C12.5046 11.54 12.738 11.4867 12.898 11.38C13.0713 11.2733 13.2046 11.0867 13.298 10.82L17.118 0.0599997H19.138L22.918 10.82C23.0113 11.0867 23.1446 11.2733 23.318 11.38C23.4913 11.4867 23.7313 11.54 24.038 11.54H24.638V13H20.078V11.54H21.078L20.198 8.98H16.038L15.158 11.54H16.158V13H11.578V11.54ZM19.798 7.72L18.138 2.84L16.438 7.72H19.798ZM25.4452 11.52H26.0252C26.2918 11.52 26.4785 11.4667 26.5852 11.36C26.7052 11.24 26.7652 11.0533 26.7652 10.8V2.24C26.7652 1.98667 26.7052 1.80667 26.5852 1.7C26.4785 1.58 26.2918 1.52 26.0252 1.52H25.5652V0.0599997H29.9052V1.52H29.5452C29.3052 1.52 29.1318 1.58 29.0252 1.7C28.9318 1.82 28.8852 2 28.8852 2.24V6.48L33.5052 1.52H32.4852V0.0599997H36.8852V1.6H36.1452C35.8918 1.6 35.6918 1.64 35.5452 1.72C35.3985 1.8 35.2318 1.94 35.0452 2.14L31.8052 5.56L35.3452 10.92C35.4918 11.1333 35.6452 11.2867 35.8052 11.38C35.9652 11.4733 36.1718 11.52 36.4252 11.52H37.0852V13H32.4852V11.52H33.6052L30.5452 6.88L28.8852 8.66V10.8C28.8852 11.04 28.9318 11.22 29.0252 11.34C29.1318 11.46 29.3185 11.52 29.5852 11.52H30.0252V13H25.4452V11.52ZM38.4139 11.54H38.9939C39.2606 11.54 39.4472 11.48 39.5539 11.36C39.6739 11.24 39.7339 11.0467 39.7339 10.78V2.26C39.7339 2.00667 39.6739 1.82667 39.5539 1.72C39.4472 1.6 39.2606 1.54 38.9939 1.54H38.4139V0.0599997H47.9939V2.64H46.0739V2.24C46.0739 1.98667 46.0139 1.80667 45.8939 1.7C45.7739 1.58 45.5806 1.52 45.3139 1.52H41.8539V5.78H45.3139V7.26H41.8539V11.54H45.3139C45.5806 11.54 45.7739 11.4867 45.8939 11.38C46.0139 11.26 46.0739 11.0667 46.0739 10.8V10.4H47.9939V13H38.4139V11.54ZM49.3123 11.54H49.8523C50.1457 11.54 50.3457 11.48 50.4523 11.36C50.5723 11.24 50.6323 11.0533 50.6323 10.8V2.26C50.6323 2.00667 50.5723 1.82667 50.4523 1.72C50.3457 1.6 50.1457 1.54 49.8523 1.54H49.3123V0.0599997H55.8523C57.199 0.0599997 58.2457 0.393333 58.9923 1.06C59.739 1.71333 60.1123 2.64667 60.1123 3.86C60.1123 4.86 59.839 5.69333 59.2923 6.36C58.7457 7.01333 57.9723 7.43333 56.9723 7.62L58.7323 10.9C58.8657 11.14 59.019 11.3067 59.1923 11.4C59.379 11.4933 59.6123 11.54 59.8923 11.54H60.4323V13H56.0523V11.54H57.0123L55.0123 7.82H52.7523V10.84C52.7523 11.0933 52.799 11.2733 52.8923 11.38C52.999 11.4867 53.1857 11.54 53.4523 11.54H53.9123V13H49.3123V11.54ZM55.5323 6.34C56.3723 6.34 56.999 6.12667 57.4123 5.7C57.839 5.27333 58.0523 4.66 58.0523 3.86C58.0523 3.03333 57.8523 2.44 57.4523 2.08C57.0523 1.72 56.4123 1.54 55.5323 1.54H52.7523V6.34H55.5323ZM64.2052 11.56H64.6652C64.9318 11.56 65.1185 11.5 65.2252 11.38C65.3452 11.26 65.4052 11.0733 65.4052 10.82V8.26L62.1652 2.3C61.9918 1.99333 61.8185 1.78667 61.6452 1.68C61.4718 1.56 61.2252 1.5 60.9052 1.5H60.4452V0.0599997H64.8052V1.5H64.5252C64.2318 1.5 64.0852 1.58667 64.0852 1.76C64.0852 1.88 64.1385 2.03333 64.2452 2.22L66.4652 6.52L68.6652 2.22C68.7585 2.04667 68.8052 1.89333 68.8052 1.76C68.8052 1.58667 68.6652 1.5 68.3852 1.5H68.0852V0.0599997H72.4452V1.5H71.9852C71.6652 1.5 71.4185 1.56 71.2452 1.68C71.0718 1.78667 70.8985 1.99333 70.7252 2.3L67.5052 8.26V10.82C67.5052 11.0733 67.5652 11.26 67.6852 11.38C67.8052 11.5 67.9918 11.56 68.2452 11.56H68.7052V13H64.2052V11.56ZM86.6977 13.3C85.0577 13.3 83.8243 12.9467 82.9977 12.24C82.171 11.5333 81.7577 10.5733 81.7577 9.36V2.22C81.7577 1.96667 81.6977 1.78667 81.5777 1.68C81.471 1.56 81.2843 1.5 81.0177 1.5H80.5577V0.0599997H84.9777V1.5H84.5977C84.3443 1.5 84.1577 1.56 84.0377 1.68C83.931 1.8 83.8777 1.99333 83.8777 2.26V9.48C83.8777 10.28 84.111 10.8733 84.5777 11.26C85.0577 11.6467 85.7643 11.84 86.6977 11.84C88.5777 11.84 89.5177 11.0533 89.5177 9.48V2.26C89.5177 1.99333 89.4577 1.8 89.3377 1.68C89.231 1.56 89.0443 1.5 88.7777 1.5H88.3977V0.0599997H92.8577V1.5H92.3777C92.1243 1.5 91.9377 1.56 91.8177 1.68C91.6977 1.78667 91.6377 1.96667 91.6377 2.22V9.36C91.6377 10.5733 91.2243 11.5333 90.3977 12.24C89.571 12.9467 88.3377 13.3 86.6977 13.3ZM92.6717 11.54H93.2917C93.5984 11.54 93.8317 11.4867 93.9917 11.38C94.1651 11.2733 94.2984 11.0867 94.3917 10.82L98.2117 0.0599997H100.232L104.012 10.82C104.105 11.0867 104.238 11.2733 104.412 11.38C104.585 11.4867 104.825 11.54 105.132 11.54H105.732V13H101.172V11.54H102.172L101.292 8.98H97.1317L96.2517 11.54H97.2517V13H92.6717V11.54ZM100.892 7.72L99.2317 2.84L97.5317 7.72H100.892Z" fill="white"/>
+                        </svg> -->
+                    </div>
+                    
+                    <nav class="menu">
+                        <a href="#catalog" class="menu-link">Каталог</a>
+                        <a href="#about" class="menu-link">Про нас</a>
+                        <a href="#actions" class="menu-link">Акції</a>
+                        <a href="#reviews" class="menu-link">Відгуки</a>
+                        <a href="#contacts" class="menu-link">Контакти</a>
+                    </nav>
+                    
+                    <a href="tel:+380668728494" class="phone">
+                        <span>+38</span> 066 872 84 94
+                    </a>
+
+                    <button class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </header>
+            <main class="content">
+                <section class="block-homescreen">
+                    <picture class="banner">
+                        <source srcset="img/temp/home-bg-desktop.png" media="(min-width: 768px)">
+                        <img src="img/temp/home-bg-mobile.png" alt="">
+                    </picture>
+
+                    <div class="container">
+                        <div class="text">
+                            <h1 class="serif title">
+                                Корисний хліб <br>власного виробництва
+                            </h1>
+                            <div class="descr">
+                                Хліб і випічка, салати, соки, смузі та багато іншого – все це об’єднують виробники, тобто наші майстри, крафтяр
+                            </div>
+                        </div>
+                        <div class="cta">
+                            <div class="serif cta-title">Заказать товар</div>
+                            <div class="cta-descr">Для того щоб заказати товар, заповніть форму </div>
+                            <form action="/" class="cta-form">
+                                <input type="text" class="cta-input" placeholder="Iм'я" required>
+                                <input type="text" class="cta-input" placeholder="Номер телефону" required>
+                                <label class="checkbox">
+                                    <input type="checkbox" hidden checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-text">Згода на збір та обробку персональних даних</span>
+                                </label>
+                                <button class="cta-submit">Надіслати</button>
+                            </form>
+                        </div>
+                        <div class="socials">
+                            <a href="/" rel="noindex nofollow noreferrer">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="16" fill="url(#paint0_linear_0_1)"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.819 9.02563H13.181C10.8897 9.02563 9.02563 10.8897 9.02563 13.181V18.819C9.02563 21.1103 10.8897 22.9744 13.181 22.9744H18.819C21.1103 22.9744 22.9744 21.1103 22.9744 18.819V13.181C22.9743 10.8897 21.1102 9.02563 18.819 9.02563ZM21.571 18.819C21.571 20.3389 20.3388 21.5711 18.8189 21.5711H13.181C11.661 21.5711 10.4288 20.3389 10.4288 18.819V13.1811C10.4288 11.6611 11.661 10.4289 13.181 10.4289H18.8189C20.3388 10.4289 21.571 11.6611 21.571 13.1811V18.819ZM12.3923 16C12.3923 14.0108 14.0107 12.3924 15.9999 12.3924C17.9892 12.3924 19.6076 14.0107 19.6076 16C19.6076 17.9892 17.9892 19.6076 15.9999 19.6076C14.0107 19.6076 12.3923 17.9892 12.3923 16ZM15.9999 18.2044C14.7824 18.2044 13.7955 17.2175 13.7955 16C13.7955 14.7825 14.7825 13.7956 15.9999 13.7956C17.2174 13.7956 18.2043 14.7825 18.2043 16C18.2043 17.2174 17.2174 18.2044 15.9999 18.2044ZM19.6145 13.2839C20.092 13.2839 20.479 12.8969 20.479 12.4195C20.479 11.942 20.092 11.555 19.6145 11.555C19.1371 11.555 18.7501 11.942 18.7501 12.4195C18.7501 12.8969 19.1371 13.2839 19.6145 13.2839Z" fill="white"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_0_1" x1="0.106913" y1="-0.0534563" x2="4.99603e-07" y2="31.9465" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#7024C4"/>
+                                    <stop offset="0.415461" stop-color="#C21975"/>
+                                    <stop offset="0.702206" stop-color="#C74C4D"/>
+                                    <stop offset="1" stop-color="#E09B3D"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a href="/" rel="noindex nofollow noreferrer">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="16" fill="#3D5A96"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0824 22.564H14.1723V16.3647H12.718V13.9758H14.1723V12.5427C14.1723 10.5952 14.9933 9.43579 17.3262 9.43579H19.2682V11.8247H18.0548C17.1464 11.8247 17.086 12.1582 17.086 12.7813L17.0824 13.9758H19.2821L19.0244 16.3647H17.0824V22.564Z" fill="white"/>
+                                </svg>
+                            </a>
+                            <a href="/" rel="noindex nofollow noreferrer">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="16" fill="#45AEE4"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0182 17.0796L8.75507 15.7951C8.42365 15.6641 8.42077 15.1706 8.75125 15.0362L22.1434 9.58748C22.4273 9.47166 22.7203 9.73401 22.6584 10.0485L20.2551 22.2409C20.1985 22.5288 19.8785 22.6593 19.6526 22.4862L16.3718 19.9741C16.1726 19.8215 15.901 19.8296 15.7103 19.9935L13.8914 21.5574C13.6802 21.7395 13.3621 21.6381 13.2813 21.3637L12.0182 17.0796ZM19.4552 12.2532L13.0777 16.3958C12.8333 16.555 12.7182 16.8663 12.7972 17.1578L13.4867 19.7131C13.5357 19.8942 13.7849 19.8756 13.8086 19.6885L13.9879 18.2872C14.0217 18.0234 14.1411 17.7803 14.3261 17.5987L19.5893 12.4387C19.6877 12.3424 19.5698 12.179 19.4552 12.2532Z" fill="white"/>
+                                    <path d="M13.0778 16.3958L19.4552 12.2531C19.5698 12.1789 19.6877 12.3424 19.5893 12.4387L14.3261 17.5986C14.1411 17.7802 14.0217 18.0233 13.9879 18.2871L13.8086 19.6885C13.7849 19.8756 13.5357 19.8941 13.4867 19.713L12.7972 17.1577C12.7182 16.8662 12.8333 16.5549 13.0778 16.3958Z" fill="#EAEAEA"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="block-products block-catalog" id="catalog">
+                    <div class="container">
+                        <div class="catalog-slider swiper-container js-products-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-1.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Фірмовий багет</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">360г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price">24,30 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-2.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Вафлі</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">89г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price">68 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-3.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Круасан</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">1ш 60г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price">17 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-4.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Макова булочка</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">140г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price">42 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-1.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Фірмовий багет</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">360г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price">24,30 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-2.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Вафлі</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">89г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price">68 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-3.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Круасан</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">1ш 60г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price">17 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-4.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Макова булочка</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">140г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price">42 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="block-about" id="about">
+                    <div class="container">
+                        <div class="text">
+                            <h2 class="title">
+                                Про нас
+                            </h2>
+                            <div class="descr">
+                                <p>
+                                    Харчовий продукт, що випікається з борошна. До хлібів відносять цілу групу основних продуктів, які виробляються шляхом випічки або смаженням. Вихідним матеріалом є тісто, до складу якого входить борошно і вода, в які зазвичай додають дріжджі, кисле тісто або хімічний розпушувач тіста
+                                </p>
+                                <p>
+                                    Можливі й інші добавки. Зовнішню верхню частину називають скоринкою хліба, внутрішню — м'якушкою хліба. Хліб є популярним харчовим продуктом європейців, жителів Близького Сходу та представників індійських культур
+                                </p>
+                            </div>
+                        </div>
+                        <div class="banner">
+                            <img src="img/temp/about-banner.jpg" alt="" loading="lazy">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="block-products block-actions" id="actions">
+                    <div class="container">
+                        <div class="catalog-slider swiper-container js-products-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-label">Знижка -20%</div>
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-1.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Фірмовий багет</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">360г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price old">27 <span>грн</span></div>
+                                                <div class="product-card-price">24,30 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-label">Знижка -20%</div>
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-2.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Вафлі</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">89г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price old">78 <span>грн</span></div>
+                                                <div class="product-card-price">68 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-label">Знижка -20%</div>
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-3.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Круасан</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">1ш 60г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price old">27 <span>грн</span></div>
+                                                <div class="product-card-price">17 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-label">Знижка -20%</div>
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-4.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Макова булочка</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">140г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price old">52 <span>грн</span></div>
+                                                <div class="product-card-price">42 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-label">Знижка -20%</div>
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-1.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Фірмовий багет</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">360г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price old">27 <span>грн</span></div>
+                                                <div class="product-card-price">24,30 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-label">Знижка -20%</div>
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-2.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Вафлі</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">89г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price old">78 <span>грн</span></div>
+                                                <div class="product-card-price">68 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-label">Знижка -20%</div>
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-3.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Круасан</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">1ш 60г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price old">27 <span>грн</span></div>
+                                                <div class="product-card-price">17 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="product-card-label">Знижка -20%</div>
+                                        <div class="product-card-photo">
+                                            <img src="img/temp/product-card-4.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="product-card-title">Макова булочка</div>
+                                        <div class="product-card-info">
+                                            <div class="product-card-weight">140г</div>
+                                            <div class="product-card-prices">
+                                                <div class="product-card-price old">52 <span>грн</span></div>
+                                                <div class="product-card-price">42 <span>грн</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="block-reviews" id="reviews">
+                    <div class="container">
+                        <div class="reviews-slider swiper-container js-reviews-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="review-item">
+                                        <div class="review-item-photo">
+                                            <img src="img/temp/review-1.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="review-item-info">
+                                            <div class="review-item-author">Анна</div>
+                                            <div class="review-item-date">17.09.2022</div>
+                                            <div class="review-item-message">Дякую! Дуже вкусно було, ви неймовірні. Треба ще замовити</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-item">
+                                        <div class="review-item-photo">
+                                            <img src="img/temp/review-2.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="review-item-info">
+                                            <div class="review-item-author">Анна</div>
+                                            <div class="review-item-date">17.09.2022</div>
+                                            <div class="review-item-message">Дякую! Дуже вкусно було, ви неймовірні. Треба ще замовити</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="review-item">
+                                        <div class="review-item-photo">
+                                            <img src="img/temp/review-3.jpg" alt="" loading="lazy">
+                                        </div>
+                                        <div class="review-item-info">
+                                            <div class="review-item-author">Анна</div>
+                                            <div class="review-item-date">17.09.2022</div>
+                                            <div class="review-item-message">Дякую! Дуже вкусно було, ви неймовірні. Треба ще замовити</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="block-contacts" id="contacts">
+                    <div class="container">
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7384.563377871465!2d30.531700086389456!3d50.435034808030906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfd612e83011%3A0x87edecf81f4151b6!2z0JvQtdGB0Lgg0KPQutGA0LDQuNC90LrQuCA3!5e0!3m2!1sru!2sua!4v1649764104196!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="info">
+                            <div class="title">
+                                Контакти
+                            </div>
+                            <div class="contacts">
+                                <div class="contacts-group">
+                                    <div class="contacts-group-title">Телефон</div>
+                                    <div class="contacts-group-value">
+                                        <a href="tel:+3800668728494"><span>+380</span> 066 872 84 94</a>
+                                    </div>
+                                </div>
+                                <div class="contacts-group">
+                                    <div class="contacts-group-title">Адреса</div>
+                                    <div class="contacts-group-value">
+                                        <address><span>вул.</span> Лесі Українки</address>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="socials">
+                                <a href="/">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="16" cy="16" r="16" fill="#3D5A96"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0824 22.564H14.1723V16.3647H12.718V13.9758H14.1723V12.5427C14.1723 10.5952 14.9933 9.43579 17.3262 9.43579H19.2682V11.8247H18.0548C17.1464 11.8247 17.086 12.1582 17.086 12.7813L17.0824 13.9758H19.2821L19.0244 16.3647H17.0824V22.564Z" fill="white"/>
+                                    </svg>
+                                </a>
+                                <a href="/">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="16" cy="16" r="16" fill="#45AEE4"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0182 17.0796L8.75507 15.7951C8.42365 15.6641 8.42077 15.1706 8.75125 15.0362L22.1434 9.58748C22.4273 9.47166 22.7203 9.73401 22.6584 10.0485L20.2551 22.2409C20.1985 22.5288 19.8785 22.6593 19.6526 22.4862L16.3718 19.9741C16.1726 19.8215 15.901 19.8296 15.7103 19.9935L13.8914 21.5574C13.6802 21.7395 13.3621 21.6381 13.2813 21.3637L12.0182 17.0796ZM19.4552 12.2532L13.0777 16.3958C12.8333 16.555 12.7182 16.8663 12.7972 17.1578L13.4867 19.7131C13.5357 19.8942 13.7849 19.8756 13.8086 19.6885L13.9879 18.2872C14.0217 18.0234 14.1411 17.7803 14.3261 17.5987L19.5893 12.4387C19.6877 12.3424 19.5698 12.179 19.4552 12.2532Z" fill="white"/>
+                                        <path d="M13.0778 16.3958L19.4552 12.2531C19.5698 12.1789 19.6877 12.3424 19.5893 12.4387L14.3261 17.5986C14.1411 17.7802 14.0217 18.0233 13.9879 18.2871L13.8086 19.6885C13.7849 19.8756 13.5357 19.8941 13.4867 19.713L12.7972 17.1577C12.7182 16.8662 12.8333 16.5549 13.0778 16.3958Z" fill="#EAEAEA"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="block-gallery">
+                    <div class="container">
+                        <div class="gallery-slider swiper-container js-gallery-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="gallery-item">
+                                        <img src="img/temp/gallery-1.jpg" alt="" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-item">
+                                        <img src="img/temp/gallery-2.jpg" alt="" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-item">
+                                        <img src="img/temp/gallery-3.jpg" alt="" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-item">
+                                        <img src="img/temp/gallery-4.jpg" alt="" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="gallery-item">
+                                        <img src="img/temp/gallery-5.jpg" alt="" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- <footer class="footer">
+                <div class="container"></div>
+            </footer> -->
+        </div>
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
