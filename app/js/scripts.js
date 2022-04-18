@@ -71,3 +71,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+window.onscroll = function() {toggleHeaderBg()};
+const header = document.querySelector('header');
+window.pageYOffset && header.classList.add('sticky')
+const toggleHeaderBg = () => {
+    window.pageYOffset > 0 ? header.classList.add('sticky') : header.classList.remove('sticky');
+}

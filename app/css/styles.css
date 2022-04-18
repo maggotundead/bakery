@@ -744,8 +744,9 @@ main {
   right: 0;
   color: #fff;
   z-index: 3;
-  background-color: transparent;
-  mix-blend-mode: exclusion; }
+  transition: background-color 0.3s; }
+  .header.sticky {
+    background-color: #161616; }
   .header .container {
     padding: 1.38889rem 0;
     display: flex;
@@ -779,7 +780,7 @@ main {
         left: 0;
         right: 0;
         padding: 6.66667rem;
-        background-color: #1B1B1B;
+        background-color: #161616;
         border-radius: 0 0 3.2rem 3.2rem; } }
     .header .menu-link {
       font-size: 0.97222rem;
@@ -837,21 +838,12 @@ main {
     overflow: hidden; } }
 
 @media screen and (max-width: 767px) {
-  .mobile-menu-open .header {
-    mix-blend-mode: initial; } }
-
-@media screen and (max-width: 767px) {
   .mobile-menu-open .header .menu {
     opacity: 1;
     pointer-events: auto; } }
 
 @media screen and (max-width: 767px) {
-  .mobile-menu-open .header .burger {
-    background-color: #000; } }
-
-@media screen and (max-width: 767px) {
   .mobile-menu-open .header .burger span {
-    background-color: #fff;
     width: 7.46667rem; } }
 
 @media screen and (max-width: 767px) {

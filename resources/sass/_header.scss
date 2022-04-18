@@ -5,8 +5,12 @@
     right: 0;
     color: #fff;
     z-index: 3;
-    background-color: transparent;
-    mix-blend-mode: exclusion;
+    // background-color: transparent;
+    // mix-blend-mode: exclusion;
+    transition: background-color $duration;
+    &.sticky {
+        background-color: #161616;
+    }
 
     .container {
         padding: rem(20) 0;
@@ -52,10 +56,11 @@
             left: 0;
             right: 0;
             padding: mobrem(25);
-            background-color: #1B1B1B;
+            // background-color: #1B1B1B;
+            background-color: #161616;
             border-radius: 0 0 mobrem(12) mobrem(12);
         }
-        
+
         &-link {
             font-size: rem(14);
             line-height: 1.57;
@@ -127,9 +132,9 @@
         overflow: hidden;
     }
     .header {
-        @include mobile {
-            mix-blend-mode: initial;
-        }
+        // @include mobile {
+        //     mix-blend-mode: initial;
+        // }
         .menu {
             @include mobile {
                 opacity: 1;
@@ -137,13 +142,13 @@
             }
         }
         .burger {
-            @include mobile {
-                background-color: #000;
+            // @include mobile {
+            //     background-color: #000;
 
-            }
+            // }
             span {
                 @include mobile {
-                    background-color: #fff;
+                    // background-color: #fff;
                     width: mobrem(28);
                 }
                 &:nth-child(1) {
